@@ -181,7 +181,7 @@ document.addEventListener('DOMContentLoaded', () => {
       new Chart(ctx, {
         type: 'bar',
         data: {
-          labels: topGaps.map(([_gap]) => gap),
+          labels: topGaps.map(([gap]) => gap),
           datasets: [{
             label: 'Frequency',
             data: topGaps.map(([, count]) => count),
@@ -239,5 +239,16 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     };
     reader.readAsBinaryString(file);
+  }
+
+  function showLoading(show) {
+    document.getElementById('loading').style.display = show ? 'block' : 'none';
+  }
+
+  function showError(message) {
+    const errorDiv = document.getElementById('error-msg');
+    errorDiv.textContent = message;
+    errorDiv.style.display = 'block';
+    setTimeout(() => { errorDiv.style.display = 'none'; }, 5000);
   }
 });
