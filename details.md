@@ -1,0 +1,4 @@
+Project URL: https://idxrlzuyedwkluxcwsig.supabase.co
+API Key eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImlkeHJsenV5ZWR3a2x1eGN3c2lnIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTkyNjQ5ODQsImV4cCI6MjA3NDg0MDk4NH0.-2H4lQPI9atK1NDfGb7Va5Qu0zHtKsOTUhWktHH-_-A
+
+Database password 3zglLBDLGS5nermx
